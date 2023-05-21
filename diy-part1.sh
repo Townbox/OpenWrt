@@ -27,7 +27,6 @@ sed -i 's/^#\(.*telephony\)/\1/' feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
 echo 'src-git lienol https://github.com/Lienol/openwrt-package' >>feeds.conf.default
-
 echo 'src-git packages https://github.com/immortalwrt/packages' >>feeds.conf.defaul
 echo 'src-git luci https://github.com/immortalwrt/luci' >>feeds.conf.defaul
 echo 'src-git routing https://github.com/openwrt/routing' >>feeds.conf.defaul
